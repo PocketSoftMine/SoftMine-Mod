@@ -39,13 +39,9 @@ function procCmd(command){
 			sendMessage("§a/beta: §fSoftMine ModBeta");
 			sendMessage("§a/save-all:§f save your softmine configs");
 		}
-	} else {
-		sendMessage("Ops! Selecione o número de 1 a 3");
-	} 
+	}
 	if(cmd[0] == "save-all"){
 		sendMessage("Configuração salva!");
-	} else {
-		sendMessage("Bugou! Más não salvou :(");
 	}
 }
 
